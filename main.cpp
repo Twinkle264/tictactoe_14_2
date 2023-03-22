@@ -88,6 +88,7 @@ void c_field(char a[3][3]) {
 int main() {
     bool player = true;
 
+    c_field(tictactoe);
     for (int i = 0; i < 9; ++i){
         playerController(player);
 
